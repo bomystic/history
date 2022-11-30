@@ -7,14 +7,14 @@ public class Quiz5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("국어 점수를 입력하세요 : ");
-		int su1 = sc.nextInt();
+		int kor = sc.nextInt();
 		System.out.print("영어 점수를 입력하세요 : ");
-		int su2 = sc.nextInt();
+		int eng = sc.nextInt();
 		System.out.print("수학 점수를 입력하세요 : ");
-		int su3 = sc.nextInt();
-		int tot = su1 + su2 + su3;
+		int mat = sc.nextInt();
+		int tot = kor + eng + mat;
 		double avg = (double)tot /3;
-		System.out.println("국어 :"+su1+"\t영어 : "+su2+"\t수학 : "+su3);
+		System.out.println("국어 :"+kor+"\t영어 : "+eng+"\t수학 : "+mat);
 		System.out.printf("총점 : %d\t평균 : %.2f\n",tot, avg);
 	}
 }

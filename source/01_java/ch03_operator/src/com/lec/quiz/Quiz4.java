@@ -7,9 +7,9 @@ public class Quiz4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("나이를 입력하세요 : ");
-		int su = sc.nextInt();
+		int age = sc.nextInt();
 		String result;
-		if (su>=65) {
+		if (age>=65) {
 			result = "경로우대";
 		}else {
 			result = "일반";
